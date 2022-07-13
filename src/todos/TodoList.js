@@ -23,7 +23,7 @@ const TodoList = ({ completedTodos, incompleteTodos, onRemovedPressed, onComplet
     const content = (
         <div className="list-wrapper">
             <NewTodoForm />
-            <h3>Incomlete : </h3>
+            <h3>Incomplete : </h3>
             {incompleteTodos.map(todo => <TodoListItem
                 todo={todo}
                 onRemovedPressed={onRemovedPressed}
