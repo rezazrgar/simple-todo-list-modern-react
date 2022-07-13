@@ -6,7 +6,6 @@ import { Provider } from 'react-redux';
 import { configureStore } from './store';
 import reportWebVitals from './reportWebVitals';
 import App from './App';
-import './index.css';
 
 const store = configureStore();
 const persistor = persistStore(store);
